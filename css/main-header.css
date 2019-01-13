@@ -1,0 +1,240 @@
+#main-header{
+    background-color: #333;
+    height: auto;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+#main-header .header-logo{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+#main-header .header-logo img{
+    width: 80px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.header-socials{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+}
+
+.header-socials .socials-items:first-of-type{
+    display: block;
+    padding: 5px;
+}
+
+.header-socials .socials-items ~ .socials-items{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.header-socials .socials-img{
+    margin: 0 2px;
+}
+
+.header-socials .img-icon{
+    width: 40px;
+    border-radius: 20px;
+
+    transition-duration: 98.7ms;
+        -o-transition-duration: 98.7ms;
+        -moz-transition-duration: 98.7ms;
+        -webkit-transition-duration: 98.7ms;
+
+    transition-delay: 98.7ms;
+        -o-transition-delay: 98.7ms;
+        -moz-transition-delay: 98.7ms;
+        -webkit-transition-delay: 98.7ms;
+}
+
+.header-socials .img-icon:hover{
+    transform: scale(1.1);
+    border-radius: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-toggle{
+    background-color: #c81a25;
+    border: 1px solid #fff;
+    color: #fff;
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px 10px 0 0;
+    position: fixed;
+    text-align: center;
+    right: 10px;
+    top: 10px;
+    transition-duration: 98.7ms;
+    width: 40px;
+    z-index: 20;
+}
+
+.button-toggle:focus,
+.button-toggle:hover{
+    background-color: #fff;
+    border-color: #fff;
+    color: #c81a25;
+    outline-color: #c81a25;
+}
+.checkbox-toggle{
+    display: none;
+}
+
+.navigation-list{
+    background-color: #c81a25;
+    color: #fff;
+    font-family: Sans-Serif;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    transition-duration: 987ms;
+        -o-transition-duration: 987ms;
+        -moz-transition-duration: 987ms;
+        -webkit-transition-duration: 987ms;
+    width: 100%;
+}
+
+.list-item{
+    list-style: none;
+    margin-right: 200px;
+    text-transform: capitalize;
+    position: absolute;
+    right: 10px;
+    margin-inline-end: 0px;
+}
+
+.item{
+    display: inline-block;
+    font-size: 16px;
+    padding: 0 20px;
+    transition-duration: 98.7ms;
+        -o-transition-duration: 98.7ms;
+        -moz-transition-duration: 98.7ms;
+        -webkit-transition-duration: 98.7ms;
+    border: 1px solid transparent;
+}
+
+.item:hover{
+    background-color: #c81a25;
+    border-color: #fff;
+    transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+}
+
+.header-banner{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.header-banner .banner-img{
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+.header-banner .banner-description{
+    position: absolute;
+    top: 40%;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.header-banner .-modify-banner-description{
+    color: #c81a25;
+}
+
+@media (min-width: 768px){
+    .button-toggle{
+        display: none;
+    }
+}
+
+@media (max-width: 767px){
+    .header-socials .socials-items:first-of-type{
+        display: none;
+        padding: 5px;
+    }
+
+    .header-socials .socials-items ~ .socials-items{
+        margin-top: 65px;
+        margin-left: 10px;
+    }
+
+    .header-banner .banner-description{
+        font-size: 200%;
+    }
+
+    .checkbox-toggle:checked + .navigation-list{
+        left: 0;
+    }
+
+    .navigation-list{
+        height: 100vh;
+        left: -50%;
+        padding-top: 20px;
+        position: fixed;
+        text-align: left;
+        top: 0;
+        width: 50%;
+        z-index: 20;
+    }
+
+    .list-item{
+        position: absolute;
+        right: 0; 
+        left: 0;
+    }
+
+    .item{
+        display: block;
+        font-size: 16px;
+        padding: 0 0 0 20px;
+    }
+
+    .item:hover{
+        background-color: #fff;
+        color: #c81a25;
+        transform: scale(1);
+            -o-transform: scale(1);
+            -moz-transform: scale(1);
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+        width: auto; 
+    }
+
+}
+
+@media (max-width: 462px){
+    .header-banner .banner-description{
+        font-size: 150%;
+    }
+
+    .header-socials{
+        display: none;
+    }
+}

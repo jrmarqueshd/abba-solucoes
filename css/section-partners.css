@@ -1,0 +1,26 @@
+.section-partners .partners-list{
+    text-align: center;
+}
+
+.section-partners img{
+    max-width: 300px;
+}
+
+
+@media (max-width: 991px){
+    .section-partners img{
+        max-width: 230px;
+    }
+}
+
+@media (max-width: 767px){
+    .section-partners img{
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 462px){
+    .section-partners img{
+        max-width: 170px;
+    }
+}
