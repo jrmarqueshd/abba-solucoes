@@ -1,5 +1,6 @@
 #main-header{
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.5);
+    border-radius: 5px 5px 0 0;
     height: auto;
     width: 100%;
     color: #fff;
@@ -7,10 +8,12 @@
 }
 
 #main-header .header-logo{
+    background-color: #333;
+    border-radius: 5px 5px 0 0;
     color: #fff;
     text-transform: uppercase;
     font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Staatliches", sans-serif;
     font-weight: bolder;
 }
 
@@ -36,6 +39,11 @@
 .header-socials .socials-items ~ .socials-items{
     margin-top: 10px;
     margin-left: 10px;
+}
+
+.header-socials .fas.fa-mobile-alt,
+.header-socials .far.fa-envelope{
+    vertical-align: middle;
 }
 
 .header-socials .socials-img{
@@ -115,7 +123,7 @@ a{
 .list-item{
     list-style: none;
     margin-right: 200px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     position: absolute;
     right: 10px;
     margin-inline-end: 0px;
@@ -150,18 +158,24 @@ a{
 
 .header-banner .banner-img{
     width: 100%;
-    height: auto;
     opacity: 0.5;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0;
 }
 
 .header-banner .banner-description{
     position: absolute;
     top: 40%;
-    font-size: 40px;
+    font-size: 60px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-family: "Staatliches", sans-serif;
     text-align: center;
     width: 100%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    align
 }
 
 .header-banner .-modify-banner-description{
@@ -186,7 +200,7 @@ a{
     }
 
     .header-banner .banner-description{
-        font-size: 200%;
+        font-size: 50px;
     }
 
     .checkbox-toggle:checked + .navigation-list{
@@ -227,11 +241,15 @@ a{
         width: auto; 
     }
 
+    .header-banner .banner-img{
+        height: 300px;
+    }    
 }
 
 @media (max-width: 462px){
     .header-banner .banner-description{
-        font-size: 150%;
+        font-size: 40px;
+        top: 100px;
     }
 
     .header-socials{

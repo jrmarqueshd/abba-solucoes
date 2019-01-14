@@ -1,0 +1,38 @@
+.section-slider{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.section-slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 20;
+}
+
+.section-slider .slick-prev{
+    left: 10px;
+}
+
+.section-slider .slick-next{
+    right: 10px;
+}
+
+.section-slider button{
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+    font-size: 40px;
+    outline-color: transparent;
+}
+
+.section-slider button > i{
+    transition-duration: 987ms;
+        -o-transition-duration: 987ms;
+        -moz-transition-duration: 987ms;
+        -webkit-transition-duration: 987ms; 
+}
+
+.section-slider button:hover > i{
+    color: #c81a25;
+}
