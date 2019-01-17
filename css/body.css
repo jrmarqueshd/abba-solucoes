@@ -1,15 +1,14 @@
 html{
-    background-image: linear-gradient(90deg, #056CC8, #053683);
+    background-image: linear-gradient(90deg, #c81a25 , #053683);
 }
 
 body{
     padding: 15px;
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: 
-        url("../img/banner-header.jpg"),
-        linear-gradient(to bottom, #c81a25, #252a34);
+    background-image: url("../img/banner-header.jpg");
+    background-blend-mode: multiply;
+    background-color: rgba(200, 26, 38, 0.623);
     background-size: 100% 800px;
-    background-attachment: fixed;
     background-position-y: -150px;
     background-repeat: no-repeat;
 }

@@ -18,6 +18,16 @@
     right: 10px;
 }
 
+.section-slider .single-item-rtl{
+    width: 500px !important;
+    margin: 0 auto;
+}
+
+.section-slider .slick-slide{
+    height: auto;
+    width: 500px !important;
+}
+
 .section-slider button{
     background-color: transparent;
     color: #333;
