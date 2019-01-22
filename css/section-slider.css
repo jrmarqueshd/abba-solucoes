@@ -18,14 +18,18 @@
     right: 10px;
 }
 
+.section-slider .single-item-rtl img{
+    height: auto;
+    max-width: 960px;
+}
+
 .section-slider .single-item-rtl{
-    width: 500px !important;
+    width: 70%;
     margin: 0 auto;
 }
 
 .section-slider .slick-slide{
-    height: auto;
-    width: 500px !important;
+    
 }
 
 .section-slider button{
