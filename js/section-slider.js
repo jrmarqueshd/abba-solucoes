@@ -1,5 +1,7 @@
 $('.single-item-rtl').slick({
-    rtl: true
+    rtl: true,
+    autoplay: true,
+    autoplaySpeed: 2000
 });
 
 document.querySelector(".slick-prev").innerHTML = '<i class="fas fa-arrow-circle-left"></i>';
