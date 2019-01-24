@@ -1,5 +1,6 @@
 .section-about{
     text-align: center;
+    padding-bottom: 40px !important;
 }
 
 .section-about .about-card{
@@ -124,6 +125,7 @@
         border: 5px solid #333;
         margin: 5px;
         margin-top: 20px;
+        margin-bottom: 20px;
         margin-right: 10px;
         height: auto;
         width: 150px;
