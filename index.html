@@ -29,6 +29,8 @@
         <link rel="stylesheet" href="css/reset.css" />
 
     <!-- IMPORTS -->
+        <!-- <link rel="stylesheet" href="css/style.css"> -->
+        <script src="js/modernizr.js"></script> <!-- Modernizr -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
         <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet" />
@@ -44,7 +46,7 @@
         <link rel="stylesheet" href="css/section-partners.css" />
         <link rel="stylesheet" href="css/main-footer.css" />
 </head>
-<body>
+<body data-hijacking="off" data-animation="scaleDown">
     <header id="main-header">
         <h1 class="header-logo">
             <a class="link" href="index.html">
@@ -87,7 +89,7 @@
         </figure>
     </header>
 
-    <section class="section-slider">
+    <section class="section-slider cd-section">
         <h2 class="title-section">Serviços</h2>
 
         <div class="single-item-rtl" dir="rtl">
@@ -98,7 +100,7 @@
         </div>
     </section>
 
-    <section class="section-about">
+    <section class="section-about cd-section">
         <h2 class="title-section">Sobre Nós</h2>
         <div class="about-card quality">
             <i class="fas fa-medal"></i>
@@ -155,7 +157,7 @@
         
     </section>
 
-    <section class="section-partners">
+    <section class="section-partners cd-section">
         <h2 class="title-section">Parceiros</h2>
         <ul class="partners-list">
             <li class="list-img"><img src="img/Chevrolet_logo.png" alt="Lista de Parceiros" /></li>
@@ -193,6 +195,11 @@
     <!-- JS -->
         <script src="js/section-about.js"></script>
         <script src="js/section-slider.js"></script>
-        <script src="js/main-footer.js"></script>
+        <script src="js/main-footer.js"></script>   
+
+        <script src="js/jquery-2.1.4.js"></script>
+        <script src="js/velocity.min.js"></script>
+        <script src="js/velocity.ui.min.js"></script>
+        <script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
 </html>

@@ -92,7 +92,7 @@ a{
     top: 10px;
     transition-duration: 98.7ms;
     width: 40px;
-    z-index: 20;
+    z-index: 59;
 }
 
 .button-toggle:focus,
@@ -101,6 +101,7 @@ a{
     border-color: #fff;
     color: #c81a25;
     outline-color: #c81a25;
+    z-index: 21;
 }
 .checkbox-toggle{
     display: none;

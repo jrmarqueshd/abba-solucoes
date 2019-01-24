@@ -74,6 +74,11 @@
         -webkit-transform: scale(1.2);
 }
 
+.section-about .toggle-title{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .section-about .desc-toggle{
     width: 940px;
     margin-left: auto;
@@ -186,6 +191,7 @@
     }
 
     .section-about .desc-toggle{
+        padding: 40px;
         width: 270px;
     }
 
