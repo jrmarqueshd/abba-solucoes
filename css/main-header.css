@@ -176,8 +176,8 @@ a{
     font-family: "Staatliches", sans-serif;
     text-align: center;
     width: 100%;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #fff;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #fff;
 }
 
 .header-banner .-modify-banner-description{
