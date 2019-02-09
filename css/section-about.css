@@ -1,3 +1,43 @@
+@keyframes hiddenAndShow{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+@-o-keyframes hiddenAndShow{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes hiddenAndShow{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes hiddenAndShow{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
 .section-about{
     text-align: center;
     padding-bottom: 40px !important;
@@ -44,6 +84,10 @@
 
 .section-about .card-desc{
     text-align: justify;
+    hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        -webkit-hyphens: auto;
     text-indent: 10px;
     padding: 0 10px;
     font-size: 18px;
@@ -74,9 +118,13 @@
         -webkit-transform: scale(1.2);
 }
 
-.section-about .toggle-title{
+.section-about .toggle-title {
     text-transform: uppercase;
     font-weight: bold;
+    border-bottom: 3px solid #c81a25;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
 
 .section-about .desc-toggle{
@@ -90,18 +138,18 @@
     text-align: left;
     font-size: 18px;
     border-radius: 20px;
+    animation: hiddenAndShow 1s;
 }
 
 .-hidden{
+    
     display: none;
 }
 
 @media (max-width: 1027px){
     .section-about .about-card{
-        border: 5px solid #333;
-        width: 220px;
+        width: 30%;
         height: 350px;
-        display: inline-block;
         margin: 5px;
         margin-top: 20px;
     }
@@ -113,33 +161,28 @@
     }
 
     .section-about .desc-toggle{
-        width: 670px;
+        width: 90vw;
     }
 }
 
 @media (max-width: 991px){
     .section-about .about-card{
-        border: 5px solid #333;
-        margin: 5px;
         margin-top: 20px;
     }
 }
 
 @media (max-width: 767px){
-    .section-about .about-card{
-        border: 5px solid #333;
-        margin: 5px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-right: 10px;
-        height: auto;
+    .section-about .about-card {
+        height: 150px;
         width: 150px;
+        border-radius: 100%;
     }
 
     .section-about .fas.fa-medal, 
     .section-about .fas.fa-users, 
     .section-about .fas.fa-handshake{
         font-size: 70px;
+        transform: translateY(40%);
     }
 
     .section-about .card-title,
@@ -154,11 +197,7 @@
 
 @media (max-width: 562px){
     .section-about .about-card{
-        border: 5px solid #333;
-        margin: 5px;
-        margin-top: 20px;
-        margin-right: 10px;
-        height: auto;
+        height: 100px;
         width: 100px;
     }
 
@@ -168,31 +207,31 @@
         font-size: 50px;
     }
 
-    .section-about .desc-toggle{
-        width: 300px;
+    .section-about .desc-toggle {
+        width: 80vw;
     }
 
 }
 
 @media (max-width: 462px){
     .section-about .about-card{
-        border: 5px solid #333;
-        margin: 5px;
-        margin-top: 20px;
-        margin-right: 10px;
-        height: auto;
-        width: 100px;
+        height: 80px;
+        width: 80px;
     }
 
     .section-about .fas.fa-medal, 
     .section-about .fas.fa-users, 
     .section-about .fas.fa-handshake{
         font-size: 40px;
+        transform: translateY(35%);
+    }
+
+    .section-about .toggle-title {
+        margin-top: 0;
     }
 
     .section-about .desc-toggle{
-        padding: 40px;
-        width: 270px;
+        padding: 15px;
     }
 
 }
