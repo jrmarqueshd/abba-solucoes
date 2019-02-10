@@ -1,7 +1,8 @@
 $('.single-item-rtl').slick({
     rtl: true,
-    // autoplay: true,
-    autoplaySpeed: 2000
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: true
 });
 
 document.querySelector(".slick-prev").innerHTML = '<i class="fas fa-caret-left"></i>';

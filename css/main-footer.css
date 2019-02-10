@@ -89,6 +89,10 @@
     #main-footer .footer-localization iframe {
         width: 40vw;
     }
+
+    #main-footer .contacts-mail{
+        font-size: 0.87em;
+    }
 }
 
 @media screen and (max-width: 375px){
@@ -100,6 +104,10 @@
         text-align: center;
         right: 0;
         width: 100%;
+    }
+
+    #main-footer .contacts-mail{
+        font-size: 1em;
     }
 
     #main-footer .footer-social {

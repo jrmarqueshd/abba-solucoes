@@ -4,10 +4,6 @@ html{
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: url("../img/banner-header.jpg");
-    background-size: 100% 800px;
-    background-position-y: -150px;
-    background-repeat: no-repeat;
 }
 
 section,
@@ -15,7 +11,6 @@ footer{
     max-width: 1440px;
     margin: 0 auto;
     background-color: #fff;
-    margin-top: 25px;
 }
 
 .title-section{
@@ -24,13 +19,17 @@ footer{
     background-color: #c81a25;
     color: #fff;
     text-align: center;
+    line-height: 10vh;
+    height: 10vh;
 }
 
 .title-section:first-of-type{
     margin-top: 0px;
 }
 
-@media (max-width: 767px){
+
+
+@media screen and (max-width: 767px){
     body{
         padding: 0px;
         background-position-y: -200px;
@@ -43,5 +42,9 @@ footer{
         margin: 0 auto;
         background-color: #fff;
         margin-top: 5px;
+    }
+
+    .title-section {
+        font-size: 23px;
     }
 }

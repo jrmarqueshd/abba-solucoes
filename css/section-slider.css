@@ -20,9 +20,7 @@
 
 .section-slider .single-item-rtl{
     margin: 0 auto;
-    width: 100vw;
-    max-width: 1032px;
-    max-height: 100vh;
+    max-width: 1440px;
 }
 
 .section-slider .single-item-rtl img{
@@ -41,7 +39,7 @@
 
 .section-slider button:hover{
     opacity: 1;
-}
+}   
 
 .section-slider button > i{
     transition-duration: 98.7ms;
@@ -53,4 +51,80 @@
 .section-slider button:focus > i{
     color: inherit;
     opacity: 0.5;
+}
+
+.section-slider .slick-dots{
+    bottom: 0;
+    position: absolute;
+    right: 45%;
+    opacity: 1;
+}
+
+.section-slider .slick-dots button{
+    background-color: #fff;
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    color: transparent;
+    margin: 0 15px;
+    box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+}
+
+.section-slider .slick-dots .slick-active button{
+    border: 3px solid #c81a25;
+    box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+}
+
+@media screen and (max-width: 1199px){
+    .section-slider .slick-dots{
+        right: 45%;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .section-slider .slick-dots{
+        right: 44%;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .section-slider .slick-arrow {
+        top: 41%;
+    }
+
+    .section-slider .slick-dots{
+        right: 42%;
+    }
+}
+
+@media screen and (max-width: 492px){
+    .section-slider .slick-dots{
+        right: 37%;
+    }
+}
+
+
+@media screen and (max-width: 375px){
+    .section-slider button {
+        background-color: rgba( 0, 0, 0, 0.3);
+        font-size: 20px;
+        opacity: 0.9;
+        border-radius: 100%;
+        width: 25px;
+        height: 25px;
+    }
+
+    .section-slider .slick-arrow {
+        top: 37%;
+    }
+
+    .section-slider .slick-dots{
+        right: 32%;
+    }
 }
