@@ -41,6 +41,7 @@
 .section-about{
     text-align: center;
     padding-bottom: 40px !important;
+    min-height: 100vh;
 }
 
 .section-about .about-card{
@@ -176,6 +177,7 @@
         height: 150px;
         width: 150px;
         border-radius: 100%;
+        transform: translateY(15vh);
     }
 
     .section-about .fas.fa-medal, 
@@ -192,6 +194,8 @@
     
     .section-about .desc-toggle{
         width: 450px;
+        height: 40vh;
+        transform: translateY(15vh);
     }
 }
 

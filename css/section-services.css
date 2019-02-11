@@ -1,0 +1,12 @@
+.section-services{
+    min-height: 100vh;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.section-services .each-services img{
+    width: 50%;
+    height: 101vh;
+    object-fit: cover;
+    object-position: center;
+}
