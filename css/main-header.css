@@ -97,12 +97,13 @@ a{
 
 .button-toggle:focus,
 .button-toggle:hover{
-    background-color: #fff;
+    background-color: #c81a25;
     border-color: #fff;
-    color: #c81a25;
+    color: #fff;
     outline-color: #c81a25;
     z-index: 21;
 }
+
 .checkbox-toggle{
     display: none;
 }
@@ -227,11 +228,13 @@ a{
         display: block;
         font-size: 16px;
         padding: 0 0 0 20px;
+        text-align: left; 
     }
 
     .item:hover{
-        background-color: #fff;
-        color: #c81a25;
+        background-color: #c81a25;
+        color: #fff;
+        border: none;
         transform: scale(1);
             -o-transform: scale(1);
             -moz-transform: scale(1);

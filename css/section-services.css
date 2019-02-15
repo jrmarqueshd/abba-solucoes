@@ -112,16 +112,19 @@
     .section-services .each-services.telecom:active {
         background-size: cover;
     }
+
     .section-services .each-services.redes:hover,
     .section-services .each-services.redes:focus,
     .section-services .each-services.redes:active {
         background-size: cover;
     }
+
     .section-services .each-services.security:hover,
     .section-services .each-services.security:focus,
     .section-services .each-services.security:active {
         background-size: cover;
     }
+    
 
     .section-services .each-services {
         width: 80%;
