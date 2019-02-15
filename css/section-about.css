@@ -44,6 +44,10 @@
     min-height: 100vh;
 }
 
+.section-about .title-section{
+    margin-bottom: 7vh;
+}
+
 .section-about .about-card{
     border: 5px solid #333;
     width: 300px;
@@ -173,11 +177,24 @@
 }
 
 @media (max-width: 767px){
+    .section-about ._mobile{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .section-about {
+        min-height: 70vh;
+    }
+
+    .section-about .title-section {
+        margin-bottom: 0vh;
+    }
+
     .section-about .about-card {
         height: 150px;
         width: 150px;
         border-radius: 100%;
-        transform: translateY(15vh);
+        transform: translateY(2vh);
     }
 
     .section-about .fas.fa-medal, 
@@ -194,8 +211,8 @@
     
     .section-about .desc-toggle{
         width: 450px;
-        height: 40vh;
-        transform: translateY(15vh);
+        height: auto;
+        transform: translateY(3vh);
     }
 }
 
@@ -218,9 +235,15 @@
 }
 
 @media (max-width: 462px){
+    .section-about {
+        min-height: 50vh;
+    }
+
     .section-about .about-card{
         height: 80px;
+        transform: translateY(0vh);
         width: 80px;
+        
     }
 
     .section-about .fas.fa-medal, 
@@ -236,6 +259,7 @@
 
     .section-about .desc-toggle{
         padding: 15px;
+        transform: translateY(2vh);
     }
 
 }

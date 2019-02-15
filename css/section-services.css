@@ -1,12 +1,119 @@
+@keyframes banner{
+    from{
+        background: cover;
+    }
+
+    to{
+        background: 50vw;
+    }
+}
+
 .section-services{
     min-height: 100vh;
     max-width: 1440px;
+    text-align: center;
     width: 100%;
+    
 }
 
-.section-services .each-services img{
-    width: 50%;
-    height: 101vh;
-    object-fit: cover;
-    object-position: center;
+.section-services .each-services{
+    width: 25vw;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+    margin-top: 15vh;
+}
+
+.section-services .each-services.telecom{
+    background-image: url("../img/telecom.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.section-services .each-services.redes{
+    background-image: url("../img/redes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.section-services .each-services.security{
+    background-image: url("../img/seguranca.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.section-services .each-services:hover{
+    background-size: 50vw;
+    background-position: center center;
+}
+
+
+.section-services .each-services figcaption{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    line-height: 10vh;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.section-services .each-services:hover figcaption{
+    color: transparent;
+}
+
+.section-services .each-services figcaption::after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    width: 0%;
+    background-color: #c81a25;
+    transition: 987ms;
+    opacity: 0;
+}
+
+.section-services .each-services.telecom:hover figcaption::after{
+    content: "Telecom";
+    opacity: 1;
+    width: 100%;
+    color: white;
+}
+
+.section-services .each-services.redes:hover figcaption::after{
+    content: "Redes";
+    opacity: 1;
+    width: 100%;
+    color: white;
+}
+
+.section-services .each-services.security:hover figcaption::after{
+    content: "Segurança";
+    opacity: 1;
+    width: 100%;
+    color: white;
+}
+
+@media screen and (max-width: 1199px){
+    .section-services .each-services {
+        width: 30vw;
+        margin-top: 2vh;
+    }   
+}
+
+@media screen and (max-width: 767px){
+    .section-services .each-services {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 492px){
+    .section-services .each-services {
+        width: 100%;
+    }
 }

@@ -27,6 +27,10 @@ footer{
     margin-top: 0px;
 }
 
+._mobile{
+    display: none;
+}
+
 @media screen and (max-width: 767px){
     body{
         padding: 0px;
