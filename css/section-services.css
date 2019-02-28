@@ -9,19 +9,20 @@
 }
 
 .section-services{
-    min-height: 100vh;
+    height: auto;
     max-width: 1440px;
     text-align: center;
     width: 100%;
-    
 }
 
 .section-services .each-services{
-    width: 25vw;
+    width: 29.333%;
+    max-width: 29.333%;
     height: 300px;
     display: inline-block;
     position: relative;
-    margin-top: 15vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 .section-services .each-services.telecom{
@@ -44,11 +45,6 @@
     background-position: center center;
     background-repeat: no-repeat;
 
-}
-
-.section-services .each-services:hover{
-    background-size: 50vw;
-    background-position: center center;
 }
 
 
@@ -101,7 +97,7 @@
 
 @media screen and (max-width: 1199px){
     .section-services .each-services {
-        width: 30vw;
+        min-width: 30vw;
         margin-top: 2vh;
     }   
 }
@@ -128,11 +124,18 @@
 
     .section-services .each-services {
         width: 80%;
+        max-width: 80%;
+        height: 300px;
+        display: inline-block;
+        position: relative;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
     }
 }
 
 @media screen and (max-width: 492px){
     .section-services .each-services {
         width: 100%;
+        max-width: 100%;
     }
 }
