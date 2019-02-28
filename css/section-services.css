@@ -23,6 +23,7 @@
     position: relative;
     margin-top: 10vh;
     margin-bottom: 10vh;
+    cursor: pointer;
 }
 
 .section-services .each-services.telecom{
