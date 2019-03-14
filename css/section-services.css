@@ -27,21 +27,21 @@
 }
 
 .section-services .each-services.telecom{
-    background-image: url("../img/telecom.jpg");
+    background-image: url("../img/telecom_abba_solucoes.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 .section-services .each-services.redes{
-    background-image: url("../img/redes.jpg");
+    background-image: url("../img/redes_abba_solucoes.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 .section-services .each-services.security{
-    background-image: url("../img/seguranca.jpg");
+    background-image: url("../img/seguranca_abba_solucoes.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
