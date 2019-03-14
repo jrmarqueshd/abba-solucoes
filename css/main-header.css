@@ -15,6 +15,7 @@
     font-size: 40px;
     font-family: "Staatliches", sans-serif;
     font-weight: bolder;
+    padding-left: 75px;
 }
 
 #main-header .header-logo img{
@@ -27,7 +28,7 @@
 .header-socials{
     position: absolute;
     top: 10px;
-    right: 10px;
+    right: 97px;
     text-align: right;
 }
 
@@ -127,7 +128,7 @@ a{
     margin-right: 200px;
     text-transform: uppercase;
     position: absolute;
-    right: 10px;
+    right: 75px;
     margin-inline-end: 0px;
 }
 
@@ -188,6 +189,14 @@ a{
 }
 
 @media (max-width: 767px){
+    #main-header .header-logo{
+        padding-left: 0;
+    }
+
+    .header-socials{
+        right: 15px;
+    }
+
     .header-socials .socials-items:first-of-type{
         display: none;
         padding: 5px;
