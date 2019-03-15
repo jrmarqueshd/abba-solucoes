@@ -40,6 +40,7 @@
 
     <!-- STYLES  -->
         <link rel="stylesheet" href="css/body.css" />
+        <link rel="stylesheet" href="css/main.css" />
         <link rel="stylesheet" href="css/main-header.css" />
         <link rel="stylesheet" href="css/section-slider.css" />
         <link rel="stylesheet" href="css/section-services.css" />
@@ -48,194 +49,204 @@
         <link rel="stylesheet" href="css/main-footer.css" />
 </head>
 <body data-hijacking="off" data-animation="scaleDown">
-    <header id="main-header">
-        <h1 class="header-logo">
-            <a class="link" href="index.html">
-                <img src="img/logo_abba_solucoes.png" alt="Abba Soluções" title="Logo Abba Soluções">
-            </a>
-        </h1>
 
-        <ul class="header-socials">
-            <li class="socials-items">
-                <ul class="medias-socials">
-                    <li class="socials-img"><a href="https://www.facebook.com/abbasolucoesoficial/"><img class="img-icon" src="img/facebook_abba_solucoes.png" alt="Facebook Abba" /></a></li>
-                    <li class="socials-img"><a href="https://www.instagram.com/abbasolucoesoficial/"><img class="img-icon" src="img/instagram_abba_solucoes.png" alt="Instagram Abba" /></a></li>
-                    <li class="socials-img"><a href="#"><img class="img-icon" src="img/linkedin_abba_solucoes.png" alt="Linkedinacebook Abba" /></a></li>
-                    <li class="socials-img"><a href="https://api.whatsapp.com/send?phone=5511949103039"><img class="img-icon" src="img/whatsapp_abba_solucoes.png" alt="WhatsApp Abba" /></a></li>
-                </ul>
-            </li>
-            <li class="socials-items"><a href="tel:+5511949103039"><i class="fas fa-mobile-alt"></i> (11) 9 4910-3039</a></li>
-            <li class="socials-items"><a href="mailto:rodrigo@abbasolucoes.com.br"><i class="far fa-envelope"></i> rodrigo@abbasolucoes.com.br</a></li>
-        </ul>
+    <div id="loading" style="display: block">
+        <div class="imgs">
+            <img class="loading-icon" src="loading_page_abba_solucoes.gif" style="width:150px;height:150px;" />
+            <img class="abba-icon" src="img/logo_abba_solucoes.png" style="width:50px;height:50px;" />
+        </div>
+    </div>
 
-        <!--menu toggle-->
-        <label for="checkboxToggle">
-            <span class="button-toggle">&equiv;</span>
-        </label>
-        
-        <input id="checkboxToggle" name="checkboxToggle" class="checkbox-toggle" type="checkbox" />
-        <nav class="navigation-list">
-            <ul class="list-item">
-                <li class="item"><a class="link" href="index.html">Inicio</a></li>
-                <li class="item"><a class="link" href="#services">Serviços</a></li>
-                <li class="item"><a class="link" href="#about">Sobre Nós</a></li>
-                <li class="item"><a class="link" href="#partners">Parceiros</a></li>
-                <li class="item"><a class="link" href="#main-footer">Contato</a></li>
+    <div id="conteudo">
+        <header id="main-header">
+            <h1 class="header-logo">
+                <a class="link" href="index.html">
+                    <img src="img/logo_abba_solucoes.png" alt="Abba Soluções" title="Logo Abba Soluções">
+                </a>
+            </h1>
+
+            <ul class="header-socials">
+                <li class="socials-items">
+                    <ul class="medias-socials">
+                        <li class="socials-img"><a href="https://www.facebook.com/abbasolucoesoficial/"><img class="img-icon" src="img/facebook_abba_solucoes.png" alt="Facebook Abba" /></a></li>
+                        <li class="socials-img"><a href="https://www.instagram.com/abbasolucoesoficial/"><img class="img-icon" src="img/instagram_abba_solucoes.png" alt="Instagram Abba" /></a></li>
+                        <li class="socials-img"><a href="#"><img class="img-icon" src="img/linkedin_abba_solucoes.png" alt="Linkedinacebook Abba" /></a></li>
+                        <li class="socials-img"><a href="https://api.whatsapp.com/send?phone=5511949103039"><img class="img-icon" src="img/whatsapp_abba_solucoes.png" alt="WhatsApp Abba" /></a></li>
+                    </ul>
+                </li>
+                <li class="socials-items"><a href="tel:+5511949103039"><i class="fas fa-mobile-alt"></i> (11) 9 4910-3039</a></li>
+                <li class="socials-items"><a href="mailto:rodrigo@abbasolucoes.com.br"><i class="far fa-envelope"></i> rodrigo@abbasolucoes.com.br</a></li>
             </ul>
-        </nav>
 
-        <figure class="section-slider cd-section header-banner">
-            <div class="single-item-rtl" dir="rtl">
-                <img src="img/abba_solucoes_site_novo.jpg" alt="Slider de inauguração do site" />
-                <img src="img/novo_caminho_abba_solucoes.jpg" alt="Slider Abba Solucoes" />
-                <img src="img/slider_default_abba_solucoes.jpg" alt="Slider default" />
-            </div>
-        </figure>
-    </header>
+            <!--menu toggle-->
+            <label for="checkboxToggle">
+                <span class="button-toggle">&equiv;</span>
+            </label>
+            
+            <input id="checkboxToggle" name="checkboxToggle" class="checkbox-toggle" type="checkbox" />
+            <nav class="navigation-list">
+                <ul class="list-item">
+                    <li class="item"><a class="link" href="index.html">Inicio</a></li>
+                    <li class="item"><a class="link" href="#services">Serviços</a></li>
+                    <li class="item"><a class="link" href="#about">Sobre Nós</a></li>
+                    <li class="item"><a class="link" href="#partners">Parceiros</a></li>
+                    <li class="item"><a class="link" href="#main-footer">Contato</a></li>
+                </ul>
+            </nav>
 
-    <section id="services" class="section-services cd-section">
-        <h2 class="title-section">Serviços</h2>
+            <figure class="section-slider cd-section header-banner">
+                <div class="single-item-rtl" dir="rtl">
+                    <img src="img/abba_solucoes_site_novo.jpg" alt="Slider de inauguração do site" />
+                    <img src="img/novo_caminho_abba_solucoes.jpg" alt="Slider Abba Solucoes" />
+                    <img src="img/slider_default_abba_solucoes.jpg" alt="Slider default" />
+                </div>
+            </figure>
+        </header>
 
-        <figure class="each-services telecom">
-            <figcaption>
-                Telecom
-            </figcaption>
-        </figure>
-        
-        <figure class="each-services redes">
-            <figcaption>
-                Redes
-            </figcaption>
-        </figure>
+        <section id="services" class="section-services cd-section">
+            <h2 class="title-section">Serviços</h2>
 
-        <figure class="each-services security">
-            <figcaption>
-                segurança
-            </figcaption>
-        </figure>
-    </section>
+            <figure class="each-services telecom">
+                <figcaption>
+                    Telecom
+                </figcaption>
+            </figure>
+            
+            <figure class="each-services redes">
+                <figcaption>
+                    Redes
+                </figcaption>
+            </figure>
 
-    <section id="about" class="section-about cd-section">
-        <h2 class="title-section">Sobre Nós</h2>
-        <div class="about-card quality">
-            <i class="fas fa-medal"></i>
-            <h3 class="card-title">Qualidade no serviço?</h3>
-            <p class="card-desc">
-                O foco da Abba Soluções sempre será a qualidade no serviço! 
-                <i class="fas fa-angle-double-down"></i>
-            </p>
-        </div>
-        
+            <figure class="each-services security">
+                <figcaption>
+                    segurança
+                </figcaption>
+            </figure>
+        </section>
 
-        <div class="about-card who">
-            <i class="fas fa-users"></i>
-            <h3 class="card-title">Quem somos?</h3>
-            <p class="card-desc">
-                A Abba Soluções tem como principal missão, trazer as soluções, em tecnologia nas areas de telecom, segurança e redes.
-                <i class="fas fa-angle-double-down"></i>
-            </p>
-        </div>
-
-        <div class="about-card partners">
-            <i class="fas fa-handshake"></i>
-            <h3 class="card-title">Parcerias</h3>
-            <p class="card-desc">
-                Prezamos sempre a qualidade de atendimentos em todos os momentos.
-                <i class="fas fa-angle-double-down"></i>
-            </p>
-        </div>
-
-        <dl class="desc-toggle _quality -hidden">
-            <dt class="toggle-title">Sobre a qualidade em nossos serviços</dt>
-            <dd class="toggle-description">
-                <p class="_mobile">
+        <section id="about" class="section-about cd-section">
+            <h2 class="title-section">Sobre Nós</h2>
+            <div class="about-card quality">
+                <i class="fas fa-medal"></i>
+                <h3 class="card-title">Qualidade no serviço?</h3>
+                <p class="card-desc">
                     O foco da Abba Soluções sempre será a qualidade no serviço! 
+                    <i class="fas fa-angle-double-down"></i>
                 </p>
-                <p>Na visão da empresa, atitudes responsáveis garantem a qualidade do serviço e o cumprimento dos prazos, ampliam o respeito do mercado e a nossa credibilidade e, acima de tudo, proporcionam o surgimento de dois fatores que são, com toda a certeza, determinantes para o futuro de qualquer organização: a confiança e o reconhecimento de seus parceiros.</p>
-                <figure class="toggle-img"><img src="" alt="" /></figure>
-            </dd>
-        </dl>
+            </div>
+            
 
-        <dl class="desc-toggle _who -hidden">
-            <dt class="toggle-title">Sobre a Abba Soluções</dt>
-            <dd class="toggle-description">
-                <p class="_mobile">
+            <div class="about-card who">
+                <i class="fas fa-users"></i>
+                <h3 class="card-title">Quem somos?</h3>
+                <p class="card-desc">
                     A Abba Soluções tem como principal missão, trazer as soluções, em tecnologia nas areas de telecom, segurança e redes.
+                    <i class="fas fa-angle-double-down"></i>
                 </p>
-                <p>Desde o inicio estivemos em busca de melhorias, tanto em tecnologia como a qualificação da nossa equipe. Todas as decisões foram tomadas com o objetivo de sermos reconhecidos.</p>
-                <figure class="toggle-img"><img src="" alt="" /></figure>
-            </dd>
-        </dl>
+            </div>
 
-        <dl class="desc-toggle _partners -hidden">
-            <dt class="toggle-title">Sobre os serviços que prestamos</dt>
-            <dd class="toggle-description">
-                <p class="_mobile">
+            <div class="about-card partners">
+                <i class="fas fa-handshake"></i>
+                <h3 class="card-title">Parcerias</h3>
+                <p class="card-desc">
                     Prezamos sempre a qualidade de atendimentos em todos os momentos.
+                    <i class="fas fa-angle-double-down"></i>
                 </p>
-                <p>Procuramos ajudá-los sempre com a solução mais eficiente, fazendo deste o principal diferencial da Abba Soluções.
-                </p>
-                <figure class="toggle-img"><img src="" alt="" /></figure>
-            </dd>
-        </dl>
-        
-    </section>
+            </div>
 
-    <section id="partners" class="section-partners cd-section">
-        <h2 class="title-section">Parceiros</h2>
-        <ul class="partners-list">
-            <li class="list-img"><a href="http://www.coronacadinhos.com.br/"><img src="img/content/carona_cadinhos_abba_solucoes.png" alt="Parceiro Corona Cadinhos" /></a></li>
-            <li class="list-img"><a href="http://carbogas.com.br/"><img src="img/content/carbogas_abba_solucoes.jpg" alt="Parceiro Carbogas" /></a></li>
-        </ul>
-    </section>
+            <dl class="desc-toggle _quality -hidden">
+                <dt class="toggle-title">Sobre a qualidade em nossos serviços</dt>
+                <dd class="toggle-description">
+                    <p class="_mobile">
+                        O foco da Abba Soluções sempre será a qualidade no serviço! 
+                    </p>
+                    <p>Na visão da empresa, atitudes responsáveis garantem a qualidade do serviço e o cumprimento dos prazos, ampliam o respeito do mercado e a nossa credibilidade e, acima de tudo, proporcionam o surgimento de dois fatores que são, com toda a certeza, determinantes para o futuro de qualquer organização: a confiança e o reconhecimento de seus parceiros.</p>
+                    <figure class="toggle-img"><img src="" alt="" /></figure>
+                </dd>
+            </dl>
 
-    <footer id="main-footer">
-        <ul class="footer-localization">
-            <li class="localization-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2973.3011507122856!2d-46.585921185539576!3d-23.690524372258775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce439ad2d44477%3A0xdb5341496d6535c!2sR.+Caiap%C3%B3s%2C+113+-+Piraporinha%2C+Diadema+-+SP%2C+09951-520!5e1!3m2!1spt-BR!2sbr!4v1552603552653" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </li>
-        </ul>
-        <ul class="footer-contacts">
-            <li>
-                <a href="tel:+5511949103039"><i class="fas fa-mobile-alt"></i> (11) 9 4910-3039</a>
-            </li>
-            <li>
-                <a class="contacts-mail" href="mailto:rodrigo@abbasolucoes.com.br"><i class="far fa-envelope"></i> rodrigo@abbasolucoes.com.br</a>
-            </li>
-            <li class="contacts-adress">
-                <p>
-                    <a href="https://goo.gl/maps/DyD9QFALFr92">
-                        R. Caiapós, 113 - Piraporinha<br />
-                        Diadema - SP <br />
-                        09951-520
-                    </a>
-                </p>
-            </li>
-        </ul>
-        <ul class="footer-social">
-            <li class="social-list"><a href="https://www.facebook.com/abbasolucoesoficial/"><img class="list-icon" src="img/facebook_abba_solucoes.png" alt="Facebook Abba" /></a></li>
-            <li class="social-list"><a href="https://www.instagram.com/abbasolucoesoficial/"><img class="list-icon" src="img/instagram_abba_solucoes.png" alt="Instagram Abba" /></a></li>
-            <li class="social-list"><a href="#"><img class="list-icon" src="img/linkedin_abba_solucoes.png" alt="Linkedin Abba" /></a></li>
-            <li class="social-list"><a href="https://api.whatsapp.com/send?phone=5511949103039"><img class="list-icon" src="img/whatsapp_abba_solucoes.png" alt="WhatsApp Abba" /></a></li>
-        </ul>
-        <p class="powered">
-            Abba Soluções &copy; <span class="-year"></span>
-            powered By: <span class="-rights">Junior Marques</span>
-        </p>
-    </footer>
+            <dl class="desc-toggle _who -hidden">
+                <dt class="toggle-title">Sobre a Abba Soluções</dt>
+                <dd class="toggle-description">
+                    <p class="_mobile">
+                        A Abba Soluções tem como principal missão, trazer as soluções, em tecnologia nas areas de telecom, segurança e redes.
+                    </p>
+                    <p>Desde o inicio estivemos em busca de melhorias, tanto em tecnologia como a qualificação da nossa equipe. Todas as decisões foram tomadas com o objetivo de sermos reconhecidos.</p>
+                    <figure class="toggle-img"><img src="" alt="" /></figure>
+                </dd>
+            </dl>
 
+            <dl class="desc-toggle _partners -hidden">
+                <dt class="toggle-title">Sobre os serviços que prestamos</dt>
+                <dd class="toggle-description">
+                    <p class="_mobile">
+                        Prezamos sempre a qualidade de atendimentos em todos os momentos.
+                    </p>
+                    <p>Procuramos ajudá-los sempre com a solução mais eficiente, fazendo deste o principal diferencial da Abba Soluções.
+                    </p>
+                    <figure class="toggle-img"><img src="" alt="" /></figure>
+                </dd>
+            </dl>
+            
+        </section>
+
+        <section id="partners" class="section-partners cd-section">
+            <h2 class="title-section">Parceiros</h2>
+            <ul class="partners-list">
+                <li class="list-img"><a href="http://www.coronacadinhos.com.br/"><img src="img/content/carona_cadinhos_abba_solucoes.png" alt="Parceiro Corona Cadinhos" /></a></li>
+                <li class="list-img"><a href="http://carbogas.com.br/"><img src="img/content/carbogas_abba_solucoes.jpg" alt="Parceiro Carbogas" /></a></li>
+            </ul>
+        </section>
+
+        <footer id="main-footer">
+            <ul class="footer-localization">
+                <li class="localization-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2973.3011507122856!2d-46.585921185539576!3d-23.690524372258775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce439ad2d44477%3A0xdb5341496d6535c!2sR.+Caiap%C3%B3s%2C+113+-+Piraporinha%2C+Diadema+-+SP%2C+09951-520!5e1!3m2!1spt-BR!2sbr!4v1552603552653" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </li>
+            </ul>
+            <ul class="footer-contacts">
+                <li>
+                    <a href="tel:+5511949103039"><i class="fas fa-mobile-alt"></i> (11) 9 4910-3039</a>
+                </li>
+                <li>
+                    <a class="contacts-mail" href="mailto:rodrigo@abbasolucoes.com.br"><i class="far fa-envelope"></i> rodrigo@abbasolucoes.com.br</a>
+                </li>
+                <li class="contacts-adress">
+                    <p>
+                        <a href="https://goo.gl/maps/DyD9QFALFr92">
+                            R. Caiapós, 113 - Piraporinha<br />
+                            Diadema - SP <br />
+                            09951-520
+                        </a>
+                    </p>
+                </li>
+            </ul>
+            <ul class="footer-social">
+                <li class="social-list"><a href="https://www.facebook.com/abbasolucoesoficial/"><img class="list-icon" src="img/facebook_abba_solucoes.png" alt="Facebook Abba" /></a></li>
+                <li class="social-list"><a href="https://www.instagram.com/abbasolucoesoficial/"><img class="list-icon" src="img/instagram_abba_solucoes.png" alt="Instagram Abba" /></a></li>
+                <li class="social-list"><a href="#"><img class="list-icon" src="img/linkedin_abba_solucoes.png" alt="Linkedin Abba" /></a></li>
+                <li class="social-list"><a href="https://api.whatsapp.com/send?phone=5511949103039"><img class="list-icon" src="img/whatsapp_abba_solucoes.png" alt="WhatsApp Abba" /></a></li>
+            </ul>
+            <p class="powered">
+                Abba Soluções &copy; <span class="-year"></span>
+                powered By: <span class="-rights">Junior Marques</span>
+            </p>
+        </footer>
+    </div>
     <!-- SLICK -->
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     
     <!-- JS -->
+        <script src="js/main.js"></script>
         <script src="js/main-header.js"></script>
         <script src="js/section-about.js"></script>
         <script src="js/section-slider.js"></script>
         <script src="js/main-footer.js"></script>   
 
         <script src="js/jquery-2.1.4.js"></script>
-        <script src="js/main.js"></script> <!-- Resource jQuery -->
+        
 </body>
 </html>
