@@ -1,9 +1,3 @@
-var i = setInterval(function () {
-    
-    clearInterval(i);
-  
-    // O código desejado é apenas isto:
+window.addEventListener("load", ()=>{
     document.getElementById("loading").style.display = "none";
-    document.getElementById("conteudo").style.display = "block";
-
-}, 500);
+});
